@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(85, 85, 85);
+}
+.bg{
+    background: url(asset/background\ image.jpg),linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid{
+    padding: 0 0 !important;
+}
+.content{
+    font-size: 60pxs;
+}
+.hero{
+    background-color: black;
+}
+button{
+    width: 100px;
+}
+.navbar{
+    text-align: left;
+}
